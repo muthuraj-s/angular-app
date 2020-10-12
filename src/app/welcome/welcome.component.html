@@ -1,0 +1,12 @@
+<div>
+    <table class="table-bordered" >
+        <tr *ngFor="let x of booking">
+          <td>{{ x.id }}</td>
+          <td>{{ x.name }}</td>
+        </tr>
+      </table>
+</div>
+<nav>
+  <a [routerLink]='["/new"]' >Dashboardwelcometologin</a>
+  <a [routerLink]='["/books"]' >Books</a>
+</nav>
